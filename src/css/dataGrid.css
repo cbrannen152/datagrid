@@ -1,0 +1,93 @@
+
+.data-grid-Cell { 
+	background: #ffffff; 
+	text-align: center; 
+	font-size: 11px; 
+	border: 1px solid #e3e3e3; 
+} 
+
+.data-grid-Cell:hover { 
+	background: #e3e3e3; 
+	} 
+
+.data-grid-Cell.selected { 
+	border: 2px solid #0c555d; 
+	background: #e3e3e3; 
+	border-radius: 4px; 
+	} 
+	
+.data-grid-Cell:focus { 
+	outline: none; 
+	border: 2px solid #0c555d; 
+	background: #e3e3e3; 
+	border-radius: 4px; 
+	} 
+
+.data-grid-HeaderCell { 
+	user-select: none; 
+	cursor: context-menu; 
+	background: #d4d4d4; 
+	padding: 3px; 
+	font-size: 11px; 
+	font-weight: bold; 
+	word-wrap: normal; 
+	text-align: center; 
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	overflow: hidden; 
+	border-right: 1px solid #e3e3e3; 
+	} 
+
+.data-grid-HeaderCell:focus {
+	 outline: none; 
+	 } 
+
+.headerGrid { 
+	width: 100%; 
+	background: #d4d4d4;
+	overflow: hidden !important; 
+	} 
+
+.headerGrid:focus { 
+	outline: none; 
+	} 
+
+.bodyGrid { 
+	width: 100%; 
+	background-color: #ffffff; 
+	} 
+
+.bodyGrid:focus { 
+	outline: none;
+	}
+
+.gridContainer { 
+	width: 100%; 
+	background: #d4d4d4; 
+	} 
+
+.gridContainer:focus { 
+	outline: none;
+	}
+	
+.contentAssistantContainer { 
+	padding-left: 10px; width: 100%; background: #d4d4d4; overflow: hidden !important; } 
+	.contentAssistantContainer:focus { outline: none; } 
+
+.data-grid-Toolbar { 
+	background-color: #d4d4d4; 
+	border: 1px solid #e3e3e3; 
+	padding: 5px; 
+	height: 35px; 
+	} 
+
+.data-grid-Mapping { 
+	font-size: 11px !important; 
+	padding: 1px; 
+	width: '100%'; 
+	height: '30px'; 
+	} 
+	
+.data-grid-Mapping:focus { 
+	outline: none; 
+	} 
